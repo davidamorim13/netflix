@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("fundo.png");
+    background-size: couver;
+    z-index: 0;
+}
+.formulario {
+    background-color: #000;
+    border-radius: 12px;
+    padding: 48px 24px;
+    color: #fff;
+    z-index: 2;
+    
+}
+
+.campos {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+.campos button {
+    background-color: #E50914;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 5px 0px;
+    border: none;
+
+}
+.campo {
+    padding: 8px 12px;
+    color: 9c9c9c;
+    border-radius: 4px;
+    background-color: #333;
+    border: none;
+    
+}
+
+.campo:placeholder {
+    color: 9c9c9c;
+}
+
+
+h1 {
+   font-size: 32px;
+  
+}
+.overlay {
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    position:absolute;
+    z-index: 1;
+
+}
