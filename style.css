@@ -68,7 +68,7 @@ h1 {
 display: flex;
 gap:50px;
 flex-direction:column;
-background-color: #000;
+background-image: url(batman.png)
 
 
 }
@@ -111,12 +111,13 @@ border: 1px solid #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 50px;
 
  }
  .card-list-item {
     background-color: rgba(255,0,0,0.6);
     flex: 1;
+    
  }
  .button {
     background-color: #E50914;
@@ -124,4 +125,31 @@ border: 1px solid #fff;
     border-radius: 8px;
     color: #fff;
     width: 200px;
+ }
+
+ .img-shang {
+    width: 300px;
+    height: 280px;
+   
+ }
+ .dragon {
+    width: 300px;
+    height: 280px;
+   
+ }
+
+ .loki {
+    width: 300px;
+    height: 280px;
+   
+ }
+ .spider {
+    width: 300px;
+    height: 280px;
+   
+ }
+ .thewitcher {
+    width: 300px;
+    height: 280px;
+   
  }
